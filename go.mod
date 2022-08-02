@@ -3,6 +3,7 @@ module github.com/kubearmor/kubearmor-client
 go 1.18
 
 replace (
+	github.com/accuknox/auto-policy-discovery/src => /home/wazir/go/src/github.com/accuknox/auto-policy-discovery/src
 	github.com/optiopay/kafka => github.com/cilium/kafka v0.0.0-20180809090225-01ce283b732b
 	k8s.io/api => k8s.io/api v0.22.3
 	k8s.io/apimachinery => k8s.io/apimachinery v0.22.3
@@ -16,7 +17,7 @@ require (
 	github.com/cilium/cilium v1.10.0
 	github.com/clarketm/json v1.17.1
 	github.com/fatih/color v1.13.0
-	github.com/kubearmor/KVMService/src/types v0.0.0-20220619161146-0f42a61893bc
+	github.com/kubearmor/KVMService/src/types v0.0.0-20220714130113-b0eba8c9ff34
 	github.com/kubearmor/KubeArmor/KubeArmor v0.0.0-20220620050120-7e1810d2ad41
 	github.com/kubearmor/KubeArmor/deployments v0.0.0-20220620050120-7e1810d2ad41
 	github.com/kubearmor/KubeArmor/pkg/KubeArmorHostPolicy v0.0.0-20220620050120-7e1810d2ad41
@@ -77,7 +78,7 @@ require (
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/btree v1.0.1 // indirect
-	github.com/google/go-cmp v0.5.6 // indirect
+	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/google/go-github/v30 v30.1.0 // indirect
 	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
@@ -102,7 +103,7 @@ require (
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369 // indirect
-	github.com/miekg/dns v1.1.26 // indirect
+	github.com/miekg/dns v1.1.41 // indirect
 	github.com/mitchellh/mapstructure v1.4.3 // indirect
 	github.com/moby/spdystream v0.2.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
